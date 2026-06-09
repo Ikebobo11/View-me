@@ -1,0 +1,18 @@
+import './App.css'
+import {Routes, Route} from 'react-router-dom'
+import Home from './pages/Home';
+import Co from './pages/About.jsx'
+
+function App() {
+
+  return (
+    <>
+     <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/Contact' element={<Contact/>}/>
+     </Routes>
+    </>
+  )
+}
+
+export default App
